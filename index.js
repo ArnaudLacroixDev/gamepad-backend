@@ -20,8 +20,8 @@ app.use(homeRoute);
 const reviewsRoute = require("./routes/reviews");
 app.use(reviewsRoute);
 
-const gamesRoute = require("./routes/games");
-app.use(gamesRoute);
+const gameRoute = require("./routes/game");
+app.use(gameRoute);
 
 const userRoute = require("./routes/user");
 app.use(userRoute);
